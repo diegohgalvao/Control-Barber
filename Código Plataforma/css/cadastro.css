@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+/* Logo Banner */
+.logobanner{
+    width: 500px;
+}
+
+/* Span Título Banner */
+.titulobanner{
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Título do Banner */
+.h1banner{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Botão CTA Banner */
+.btncta{
+    border: 3px solid #3a6858;
+    background-color: transparent;
+    color: #fce6d6;
+    border-radius: 10px;
+    padding: 10px 40px 10px 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/* Hover Botão CTA */
+.btnctabanner :hover{
+    color: #3a6858;
+    background-color: #fff;
+    border: 3px solid #fff;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    background-image: url(../img/barbearia-slide-overlay.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    gap: 20px;
+}
+
+.mainPage{
+    font-size: 55px;
+    opacity: 0.7;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 15px;
+    font-family: "Poppins";
+}
+
+.formPrincipalCadastro{
+    background-color: #242424;
+}
+
+.formPrincipalCadastro{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 15px;
+    width: 60%
+}
+
+.titleForm{
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+input {
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    font-family: "Poppins";
+    padding-left: 10px;
+    border-width: 0px 0px 5px 1px;
+    border-color: #3a3a3a;
+    width: 60%;
+    height: 40px;
+}
+
+.inputsForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputLinha{
+    width: 80%;
+    display: flex;
+    gap: 20px;
+}
+
+.geralForm{
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+}
+
+.iptSubmit{
+    width: 30%;
+    background-color: #3a6858;
+    color: #fff;
+    border: 2px solid #3a6858;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.iptSubmit:hover{
+    background-color: transparent;
+    border-color: #fff;
+}

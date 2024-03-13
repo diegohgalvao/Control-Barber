@@ -1,0 +1,385 @@
+body{
+    margin: 0;
+    font-family: "Poppins";
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+/* DIV Geral Menu */
+.menulp{
+    background-color: #fce6d6;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+/* Span da Logo */
+.logomenu{
+    width: 20%;
+    display: flex;
+}
+
+/* Class da Logo */
+.logocontrol{
+    width: 150px;
+    margin-top: 8px;
+}
+
+/* Span do Menu */
+
+/* Menu */
+.menu{
+    color: #3a6858;
+    font-weight: 600;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Animação Hover Menu */
+.menuhome :hover{
+    color: #222;
+    transition-duration: 3s;
+}
+
+/* Span Icon Pesquisar */
+.pesquisar{
+    width: 10%;
+
+/* Icon Pesquisar */
+}
+.fa-solid{
+    color: #3a6858;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.pesquisar :hover{
+    color: #222;
+}
+
+/* Span Banner */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+    background-image: url(../img/barbearia-slide-overlay.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    gap: 20px;
+}
+
+/* Logo Banner */
+.logobanner{
+    width: 500px;
+}
+
+/* Span Título Banner */
+.titulobanner{
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Título do Banner */
+.h1banner{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Botão CTA Banner */
+.btncta{
+    border: 3px solid #3a6858;
+    background-color: transparent;
+    color: #fce6d6;
+    border-radius: 10px;
+    padding: 10px 40px 10px 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.btncta:hover{
+    color: #3a6858;
+    background-color: #fff;
+    border: 3px solid #fff;
+}
+
+/* Div Sessão Sobre */
+.about{
+    display: flex;
+        /* width: 100%;
+        margin-top: 100px;
+        margin-bottom: 500px; */
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+}
+
+.aboutesquerda{
+    display: flex;
+    /* width: 50%; */
+    /* padding-left: 100px; */
+    flex-direction: column;
+    margin: 0px;
+    /* padding-right: 75px; */
+    justify-content: center;
+}
+
+.subtituloabout{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    padding-bottom: 8px;
+    font-weight: 500;
+}
+
+.titulosessao{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #3a6858;
+}
+
+.btnabout{
+    border: 3px solid #3a6858;
+    background-color: #3a6858;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 40px 10px 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 15px;
+    width: 60%;
+    /* margin-right: 500px; */
+}
+
+.aboutdireita{
+    /* width: 50%; */
+    padding-left: 75px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+} 
+
+.imagem1{
+    /* width: 600px; */
+    max-width: 100%;
+    border: 10px solid #3a6858;
+    border-radius: 5px;
+    margin-right: 5%;
+}
+
+.imagem2{
+    /* width: 400px; */
+    max-width: 100%;
+    border: 10px solid #3a6858;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-top: -100px;
+ }
+
+.planos{
+    background-color: #3a6858;
+    padding: 50px 50px 150px 50px;
+}
+
+.tituloplanos{
+    margin-block-end: 0px;
+    margin-block-start: 0px;    
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.descricaoplanos{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.tituloplano{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    font-size: 40px;
+}
+
+.subtituloplano{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.sectionplanos{
+    width: 100%;
+}
+
+.planosbarber{
+    text-align: center;
+    border-radius: 10px;
+    width: 33%;
+}
+
+.sessao1plano{
+    background-color: #fce6d6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#planobusiness{
+    background-color: #a56c43;
+    color: #fff;
+}
+
+#planodestaque{
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.btnplano{
+    border: 3px solid #3a6858;
+    background-color: #3a6858;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 40px 10px 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 15px;
+    width: 80%;
+}
+
+.precoplano{
+    padding-left: 40px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #222;
+    margin-block-end: 0px;
+    margin-block-start: 10px;
+}
+
+.planosbarber{
+    background-color: #fff;
+    position: relative;
+}
+
+.sessao2plano{
+    padding-bottom: 30px;
+}
+
+.sessao2planodedestaque{
+    margin-top: 50px;   
+}
+
+.listadiferenciais{
+    list-style: none;
+    padding-inline-start: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sectionplanos{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.contato{
+    width: 100%;
+    display: flex;
+    /* padding: 80px 80px 80px 150px; */
+    padding-top: 80px;
+    gap: 50px;
+    padding-bottom: 150px;
+    background-color: #fff1f1;
+}
+
+.informacoescontato{
+    width: 50%;
+    padding-left: 200px;
+}
+
+.formcontato{
+    width: 50%;
+}
+
+.titlecontato{
+    font-size: 50px;
+    color: #3a6858;
+}
+.descricaocontato{
+    padding-right: 20%;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.titleform{
+    font-size: 25px;
+    color: #222;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.camposform{
+    display: block;
+}
+
+input , textarea{
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    font-family: "Poppins";
+    padding-left: 10px;
+    border-width: 0px 0px 5px 1px;
+    border-color: #3a3a3a;
+    width: 60%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+textarea{
+    height: 100px;
+}
+
+.ctelefone{
+    margin-top: 10px;
+   display: flex;
+}
+
+.infoform{
+    padding-left: 10px;
+    margin-top: -5px;
+    color: #3a6858;
+    font-weight: 500;
+}

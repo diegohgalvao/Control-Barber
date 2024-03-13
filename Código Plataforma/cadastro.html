@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Barber - Cadastro</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/header.css">
+    <script async src="js/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/38c4e6dff1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="menulp">
+        <span class="logomenu">
+           <img src="img/Logo Control Barber.png" alt="Logo Control Barber" class="logocontrol">
+        </span> 
+        <span class="menuhome">
+           <a href="#" class="menu">Home</a>
+           <a href="#" class="menu">Planos</a>
+           <a href="#" class="menu">Sobre Nós</a>
+           <a href="#" class="menu">Contatos</a>
+       </span>
+       <span class="pesquisar">
+           <i class="fa-solid fa-magnifying-glass"></i>    
+       </span>
+   </div>
+    <div class="banner">
+        <span class="titulobanner">
+            <h1 class="mainPage">Cadastro</h1>
+            <p class="h1banner">Realize seu cadastro agora mesmo e tenha acesso a melhor<br> plataforma de gerenciamento para barbearias</p>
+        </span>
+    </div>
+    <div class="geralForm">
+        <div class="formPrincipalCadastro">
+        <h1 class="titleForm">Preencha os dados abaixo para realizar o seu cadastro</h1>
+            <div class="inputsForm">
+                <input type="text" name = "nome" placeholder="Nome Completo" id="nomeCompleto" required>
+                <input type="text" name = "nomebarbearia" placeholder="Nome Fantasia da sua Barbearia" id="nomeBarbearia">
+                <input type="text" name = "cnpj" placeholder="CNPJ" id="cnpjBarbearia">
+                <input type="text" name="telefone" placeholder="Telefone com DDD" id="telefoneBarbearia">
+                <input type="email" name = "email" placeholder="Email" id="emailBarbearia">
+                <input type="submit" class="iptSubmit" onclick="submitForm()">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

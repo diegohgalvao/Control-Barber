@@ -1,0 +1,229 @@
+/* Cores - Verde: #3a6858 , Marrom Claro: #fce6d6 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+/* Header */
+.headerDashboard{
+    background-color: #3a6858;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Logo */
+.logo{
+    width: 140px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Section da Logo/Botão e Icons/User */
+.btnAndSearch, .iconAndUser{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.btnAndSearch{
+    justify-content: start;
+    padding-left: 15%;
+    gap: 100px;
+}
+
+.iconAndUser{
+    justify-content: end;
+    padding-right: 20%;
+    gap: 30px;
+}
+
+/* Div Botão e Icon Search */
+.btnSearch{
+    background-color: rgb(68, 124, 105);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.iptSearch{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+.iptSearch::placeholder{
+    color: #e0e0e0;
+}
+
+/* Icones Header User */
+i{
+    padding-left: 20px;
+    font-size: 20px;
+    color: #c7c7c7;
+}
+
+.fa-magnifying-glass{
+    color: #cecece;
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+/* DIV Informações User */
+.infoUser{
+    display: flex;
+    background-color:rgb(68, 124, 105);
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+/* Imagem User */
+.imgUser{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+/* Infos User */
+.nomeUser, .posicaoUser{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 1px;
+}
+
+.posicaoUser{
+    font-weight: 500;
+    font-size: 10px;
+    font-family: monospace;
+    margin-top: 3px;
+}
+
+.nomePosicaoUser{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+
+/* Aqui começa a sessão do conteúdo */
+
+.conteudoPrincipal{
+    padding: 30px;
+    display: flex;
+    width: 100%;
+    background-color: #f7f7f9;
+}
+.menuLateral{
+    width: 20%;
+    padding: 30px ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(224,224,224,1);  
+    background-color: #fff;
+}
+.sessaoConteudo2{
+    padding: 20px;
+    background-color: #fff;
+    width: 49%;
+    /* height: 150px; */
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(224,224,224,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+.sessaoConteudo{
+    padding: 20px;
+    background-color: #fff;
+    width: 24%;
+    height: 150px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(224,224,224,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.conteudoPagina{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+a{
+    font-size: 14px;
+    color: #695eef;
+}
+h3{
+    font-size: 19px;
+    font-weight: 500;
+    color: #696969;
+    text-transform: uppercase;
+    font-family: 'Outfit', sans-serif;
+}
+
+h4{
+    color: #4d4d4d;
+}
+
+h1{
+    font-size: 25px;
+    color: #495057;
+}
+
+.sessoesConteudo{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+#iconTitle{
+    color: #3a6858;
+}
+
+.fotoBarbearia{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #c7c7c7;
+    border-radius: 50%;
+}
+
+.infoCliente{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 3px;
+}
+
+.menuInfo{
+    color: #4d4d4d;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+h5{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 12px;
+}

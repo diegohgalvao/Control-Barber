@@ -1,0 +1,53 @@
+/* DIV Geral Menu */
+.menulp{
+    background-color: #fce6d6;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Span da Logo */
+.logomenu{
+    width: 20%;
+}
+
+/* Class da Logo */
+.logocontrol{
+    width: 150px;
+    margin-top: 8px;
+}
+
+/* Span do Menu */
+
+/* Menu */
+.menu{
+    color: #3a6858;
+    font-weight: 600;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Animação Hover Menu */
+.menuhome :hover{
+    color: #222;
+}
+
+/* Span Icon Pesquisar */
+.pesquisar{
+    width: 10%;
+}
+
+/* Icon Pesquisar */
+
+.fa-solid{
+    color: #3a6858;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.pesquisar :hover{
+    color: #222;
+}
